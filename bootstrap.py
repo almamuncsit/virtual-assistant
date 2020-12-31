@@ -1,5 +1,5 @@
 from helpers.commands import take_command
-from commands import run_command
+from provides.route import run_command
 from helpers.speak import talk
 
 
@@ -16,5 +16,8 @@ def start():
         talk('I am here. How can I help you?')
 
         command = take_command()
+
+        if 'quit' in start_command or 'stop' in start_command:
+            break
 
         run_command(command)

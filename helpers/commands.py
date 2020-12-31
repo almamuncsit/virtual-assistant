@@ -9,6 +9,7 @@ def take_command():
         with sr.Microphone() as source:
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
+            print(command)
             command = command.lower()
     except:
         pass
