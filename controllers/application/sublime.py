@@ -1,5 +1,5 @@
 import os
 
 
-def sublime():
+def sublime() -> None:
     os.system('subl')

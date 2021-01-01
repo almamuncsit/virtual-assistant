@@ -3,7 +3,7 @@ from provides.route import run_command
 from helpers.speak import talk
 
 
-def start():
+def start() -> None:
     while True:
         start_command = take_command()
 

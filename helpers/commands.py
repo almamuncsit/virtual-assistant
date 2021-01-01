@@ -3,7 +3,7 @@ import speech_recognition as sr
 listener = sr.Recognizer()
 
 
-def take_command():
+def take_command() -> str:
     command = ''
     try:
         with sr.Microphone() as source:

@@ -1,5 +1,5 @@
 import os
 
 
-def chrome():
+def chrome() -> None:
     os.system('google-chrome')

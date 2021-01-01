@@ -1,5 +1,5 @@
 import os
 
 
-def vscode():
+def vscode() -> None:
     os.system('code')
