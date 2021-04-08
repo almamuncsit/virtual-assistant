@@ -7,7 +7,7 @@ This is a small virtual assistant like Alexa, Siri, who can listen to your speec
 - Tell Jokes
 - Tell Current time
 
-## This assistant is being developed using Python. Following Packages are being used for this project:
+This assistant is being developed using Python. Following Packages are being used for this project:
 - speech_recognition
 - pyttsx3
 - pyjokes
